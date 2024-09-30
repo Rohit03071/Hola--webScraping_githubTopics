@@ -9,8 +9,7 @@ import os
 
 #Introduction about web scrapping
 
-#Introduction about github
-#Mention the tools you are using { python, requests, BeautifulSoup, pandas, numpy}
+#the tools we are gonna use are python, requests, BeautifulSoup, pandas, numpy
 
 #here are the stps we are going to follow
 
@@ -19,10 +18,6 @@ import os
 #for each topic we will get the 25 repos in the topic from topics page
 #for each repo we will grab the repo nmae, username, stars and url
 #for each topic we create csv File in the following format
-
-#repo name, username, stars, repo URL
-#three.js, mrdoob, 69700, https://github.com/mr.doob/threejs
-
 
 
 topic_url = "https://github.com/topics"
@@ -45,9 +40,6 @@ page_contents = response.text
 
 page_contents[: 1000]
 len(response.text)
-
-
-
 
 
 #headers = 
